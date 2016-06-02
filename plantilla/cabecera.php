@@ -12,6 +12,9 @@
 	<link rel="import" href="bower_components/iron-icons/iron-icons.html">
 	<link rel="import" href="bower_components/iron-icons/av-icons.html">
 	<link rel="import" href="bower_components/iron-icons/social-icons.html">
+    <link rel="import" href="bower_components/iron-icons/device-icons.html">
+    <link rel="import" href="bower_components/iron-icons/editor-icons.html">
+    <link rel="import" href="bower_components/iron-icons/image-icons.html">
  	<link rel="import" href="bower_components/paper-fab/paper-fab.html">
 	<link rel="import" href="bower_components/paper-input/paper-input.html">
 	<link rel="import" href="bower_components/paper-button/paper-button.html">
@@ -32,8 +35,4 @@
 
     <!-- Para Galeria 1-->
     <link href="css/galeria.css" rel="stylesheet" />
-    <!-- Para Galeria 2-->
-    <link rel="stylesheet" type="text/css" href="css/demo.css" />
-    <link rel="stylesheet" type="text/css" href="css/elastislide.css" />
-    <link rel="stylesheet" type="text/css" href="css/custom.css" />
-    <script src="js/modernizr.custom.17475.js"></script>    
+       
