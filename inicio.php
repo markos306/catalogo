@@ -96,7 +96,7 @@
 
                 <!-- 9 -->
                 <li>
-                    <a href="imagen/09.jpg" title="Reunión UCN" data-subtitle="Ver fotografía">
+                    <a href="imagen/09.jpg" title="Reunión UCN" data-subtitle="Ver fotografía" data-captiom="<strong>Ciencias del Mar</strong>">
                         <img src="imagen/09.jpg" alt="Alt Image Text" />
                     </a>
                 </li>
@@ -122,7 +122,7 @@
             </ul>
             
             <script src="js/jquery.min.js"></script>
-        <script src="js/least.min.js"></script>
+        	<script src="js/least.min.js"></script>
 		
 
         <script>
