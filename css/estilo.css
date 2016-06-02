@@ -1,0 +1,100 @@
+body {
+   margin: 0;
+   background-color: #FFFFFF;
+   font-family: Tahoma,Arial,"Arial Black";
+}
+
+/*Estilos Login*/
+div.barra{
+	width: 100%;
+    height: 115px;
+	background-color: #0A0C28;
+	display:inline-block;
+}
+div.logo{
+	float:left;
+	margin-left: 15px;
+}
+div.titulo{
+	display: inline-block;
+	padding: 22px;
+	color: FFFFFF;
+	font-size: 28pt;
+	height: 115px;
+	margin-left: 100px;
+}
+div.logear{
+	border: 4px solid #A93700;
+	border-radius: 10px;
+	margin-top: 30px;
+	width: 400px;
+}
+#user, #pass{
+	width: 85%;
+}
+#ing{
+	padding: 15px;
+	background-color:  #0A0C28;
+	margin-top: 5px;
+	border-radius: 5px;
+	border: 2px solid 00FCFF;
+	color: white;
+}
+/* ----- */
+
+
+/*Estilos para inicio*/
+div.main{
+	width: 100%;
+	height: 100%;
+	margin-left: 0;
+	padding: 0;
+}
+#galeriaa{
+	margin-top: 10px;
+	width: 100%;
+	height: 100%;
+}
+
+paper-toolbar.barra{ 
+    background-color: #0A0C28;
+    height: 60px;
+
+}
+paper-toolbar.menu{
+	background-color: #0E1461;
+    height: 60px;
+}
+#titmenu{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+  #imag{
+  	float:left;
+  	margin-left: 5px;
+  }
+  #tit{
+  	display: inline-block;
+  	color:white;
+  }
+ paper-menu.list{
+    background-color:#DAFAFF; 
+    height:100%;
+    width:100%;
+    list-style:none;
+  }
+#menup{
+    color:#0A0C28 ;
+    font-weight:bold;
+  }
+ #icono{
+ 	color:red;
+ }
+ /*boton galeria*/
+ #masimg{
+ 	width: 100%;
+ 	height: 50px;
+ 	background-color: #A7A7A7;
+ 	color: black;
+ }
