@@ -14,21 +14,30 @@
 				</div>
 			</paper-toolbar>
 			<paper-menu class="list">
-				<paper-item>
-					<paper-icon-button icon="icons:android" id="icono"></paper-icon-button>
-              		<span id="menup">1ermenú</span>
-				</paper-item>
-				<paper-item>
-					<paper-icon-button icon="icons:android" id="icono"></paper-icon-button>
-              		<span id="menup">2domenú</span>
-				</paper-item>
-			</paper-menu>
+                <paper-item onClick="location.href = 'buscar.php'">
+                    <paper-icon-button icon="icons:search" id="icono"></paper-icon-button>
+                    <span id="menup">Búsqueda</span>
+                </paper-item>
+                <paper-item onClick="location.href = 'agregar.php'">
+                    <paper-icon-button icon="image:add-to-photos" id="icono"></paper-icon-button>
+                    <span id="menup">Subir</span>
+                </paper-item>
+                <paper-item onClick="location.href = 'login.php'">
+                    <paper-icon-button icon="icons:close" id="icono"></paper-icon-button>
+                    <span id="menup">Cerrar Sesión</span>
+                </paper-item>
+            </paper-menu>
 		</div>
 		<div main class="main">
 			<paper-toolbar class="barra">
-				<paper-icon-button paper-drawer-toggle icon="view-list"></paper-icon-button>
-		        <span>Cátalogo Fotográfico</span>
-        	</paper-toolbar>
+                <paper-icon-button paper-drawer-toggle icon="view-list"></paper-icon-button>
+                <span>Cátalogo Fotográfico</span>
+
+                <paper-item  id="home" onClick="location.href = 'inicio.php'">
+                    <paper-icon-button icon="icons:home" id="icono"></paper-icon-button>
+                    <span id="menupp">Inicio</span>
+                </paper-item>
+            </paper-toolbar>
 		
 		<div id="galeriaa">
 		<section id="least">
