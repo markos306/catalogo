@@ -40,82 +40,82 @@
             <ul class="least-gallery">
                 <!-- 1 || Element with data-caption ||-->
                 <li>
-                    <a href="imagen/01.jpg" title="Skateboard" data-subtitle="View Picture" data-caption="<strong>Bold text</strong> normal caption text">
+                    <a href="imagen/01.jpg" title="Acuicultura" data-subtitle="Ver fotografía" data-caption="<strong>Bote Sn Miguel</strong>">
                         <img src="imagen/01.jpg" alt="Alt Image Text" />
                     </a>
                 </li>
                 
                 <!-- 2 || Element with data-caption as href-attribute ||-->-->
                 <li>
-                    <a href="imagen/02.jpg" title="Train Rails" data-subtitle="View Picture" data-caption="Now it's possibe to add an URL-Link into caption text - <a href='http://www.google.com' target='_blank'>GOOGLE</a>">
+                    <a href="imagen/02.jpg" title="Acuicultura" data-subtitle="Ver fotografía" data-caption="Recolección">
                         <img src="imagen/02.jpg" alt="Alt Image Text" />
                     </a>
                 </li>
                 
                 <!-- 3 -->
                 <li>
-                    <a href="imagen/03.jpg" title="Apple" data-subtitle="View Picture">
+                    <a href="imagen/03.jpg" title="Ciencias del Mar" data-subtitle="Ver fotografía" data-caption="Boris, Sebastien, Marcel">
                         <img src="imagen/03.jpg" alt="Alt Image Text" />
                     </a>
                 </li>
 
                 <!-- 4 -->
                 <li>
-                    <a href="imagen/04.jpg" title="Road Trip" data-subtitle="View Picture">
+                    <a href="imagen/04.jpg" title="Lab. Microscopía" data-subtitle="Ver fotografía">
                         <img src="imagen/04.jpg" alt="Alt Image Text" />
                     </a>
                 </li>
 
                 <!-- 5 -->
                 <li>
-                    <a href="imagen/05.jpg" title="Desert" data-subtitle="View Picture">
+                    <a href="imagen/05.jpg" title="Lab. Microscopía" data-subtitle="Ver fotografía">
                         <img src="imagen/05.jpg" alt="Alt Image Text" />
                     </a>
                 </li>
 
                 <!-- 6 -->
                 <li>
-                    <a href="imagen/06.jpg" title="Tree" data-subtitle="View Picture">
+                    <a href="imagen/06.jpg" title="Lanzamiento Acuiferos" data-subtitle="Ver fotografía">
                         <img src="imagen/06.jpg" alt="Alt Image Text" />
                     </a>
                 </li>
 
                 <!-- 7 -->
                 <li>
-                    <a href="imagen/07.jpg" title="MacBook" data-subtitle="View Picture">
+                    <a href="imagen/07.jpg" title="Lanzamiento Acuiferos" data-subtitle="Ver fotografía">
                         <img src="imagen/07.jpg" alt="Alt Image Text" />
                     </a>
                 </li>
 
                 <!-- 8 -->
                 <li>
-                    <a href="imagen/08.jpg" title="Clock" data-subtitle="View Picture">
+                    <a href="imagen/08.jpg" title="Ciencias del Mar" data-subtitle="Ver fotografía">
                         <img src="imagen/08.jpg" alt="Alt Image Text" />
                     </a>
                 </li>
 
                 <!-- 9 -->
                 <li>
-                    <a href="imagen/09.jpg" title="iPhone" data-subtitle="View Picture">
+                    <a href="imagen/09.jpg" title="Reunión UCN" data-subtitle="Ver fotografía">
                         <img src="imagen/09.jpg" alt="Alt Image Text" />
                     </a>
                 </li>
 
                 <!-- 10 -->
                 <li>
-                    <a href="imagen/10.jpg" title="New York" data-subtitle="View Picture">
+                    <a href="imagen/10.jpg" title="Visamaticos" data-subtitle="Ver fotografía" data-caption="<strong>Guayacan</strong>">
                         <img src="imagen/10.jpg" alt="Alt Image Text" />
                     </a>
                 </li>
                 <!-- 11 -->
                 <li>
-                    <a href="imagen/11.jpg" title="New York" data-subtitle="View Picture">
+                    <a href="imagen/11.jpg" title="Visamaticos" data-subtitle="Ver fotografía" data-caption="José Burgos">
                         <img src="imagen/12.jpg" alt="Alt Image Text" />
                     </a>
                 </li>
                 <!-- 12 -->
                 <li>
-                    <a href="imagen/12.jpg" title="New York" data-subtitle="View Picture">
+                    <a href="imagen/12.jpg" title="Visamaticos" data-subtitle="Ver fotografía" data-caption="José Montoya">
                         <img src="imagen/12.jpg" alt="Alt Image Text" />
                     </a>
                 </li>
