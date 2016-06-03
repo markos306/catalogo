@@ -56,7 +56,7 @@ paper-toolbar.menu{
 #home{
 	float:right;
 	color: white;
-	margin-left: 70%;
+	margin-left: 60%;
 }
 #titmenu{
 	width: 100%;
@@ -108,9 +108,8 @@ paper-toolbar.menu{
 	margin-top: 30px;
 	width: 90%;
 	background-color: #FFDBB9;
-
 }
-#lineadebus{
+#lineadebus,#bus{
 	font-size: 14pt;
 	padding-left: 5px;
 	padding-right: 5px;
@@ -118,12 +117,12 @@ paper-toolbar.menu{
 	border-radius: 3px;
 	border: 1px solid #A93700;
 	color:black;
-	width: 90%;
+	width: 85%;
 	height: 40px;
 	background-color: white;
 
 }
- #bus{
+ #busc{
 	padding: 15px;
 	background-color:  #0A0C28;
 	margin-top: 5px;
@@ -131,4 +130,49 @@ paper-toolbar.menu{
 	border: 1px solid #3D3DFE;
 	color: white;
 	margin-bottom: 5px;
+}
+/*-para buscar*/
+#myDiv{
+border: 4px solid black;
+margin-top: 10px;
+border-style:dashed;
+width: 90%;
+height: 100%;
+color:#00008B;
+padding:10px 10px;
+}
+
+/*agregar foto*/
+
+ div.archivo{
+	border: 4px solid #A93700;
+	border-radius: 10px;
+	margin-top: 30px;
+	width: 90%;
+	background-color: #FFDBB9;
+}
+#sub{
+	padding: 15px;
+	background-color:  #0A0C28;
+	margin-top: 5px;
+	margin-left: 10px;
+	border-radius: 5px;
+	border: 1px solid #3D3DFE;
+	color: white;
+	margin-bottom: 5px;}
+#lineagr{
+	padding:5px;
+	margin-top: 5px;
+	border-radius: 3px;
+	border: 1px solid #A93700;
+	color:black;
+	width: 85%;
+}
+div.detalle{
+
+	border-radius: 2px ;
+	background-color: #FFDBB9;
+	padding: 5px;
+	width: 85%;
+	color: black;
 }
