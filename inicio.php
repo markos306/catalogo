@@ -41,91 +41,111 @@
 		
 		<div id="galeriaa">
 		<section id="least">
+            <?php
+            $directorio = opendir("./imagenes"); //ruta actual
+            $ar;
+            $cont=0;
+            while ($archivo = readdir($directorio))
+            {
+                $ar[$cont]=$archivo;
+                $cont++;
+            } ?>
             
             <!-- Least Gallery: Fullscreen Preview -->
             <div class="least-preview"></div>
-            
             <!-- Least Gallery: Thumbnails -->
             <ul class="least-gallery">
                 <!-- 1 || Element with data-caption ||-->
                 <li>
-                    <a href="imagen/01.jpg" title="Acuicultura" data-subtitle="Ver fotografía" data-caption="<strong>Bote Sn Miguel</strong>">
-                        <img src="imagen/01.jpg" alt="Alt Image Text" />
+                    <?php $cont--; ?>
+                    <a href="imagenes/<?php echo $ar[$cont];?>" title="Acuicultura" data-subtitle="Ver fotografía" data-caption="<strong>Bote Sn Miguel</strong>">
+                        <img src="imagenes/<?php echo $ar[$cont];?>" alt="Alt Image Text" />
                     </a>
                 </li>
                 
                 <!-- 2 || Element with data-caption as href-attribute ||-->-->
                 <li>
-                    <a href="imagen/02.jpg" title="Acuicultura" data-subtitle="Ver fotografía" data-caption="Recolección">
-                        <img src="imagen/02.jpg" alt="Alt Image Text" />
+                    <?php $cont--; ?>
+                    <a href="imagenes/<?php echo $ar[$cont];?>" title="Acuicultura" data-subtitle="Ver fotografía" data-caption="Recolección">
+                        <img src="imagenes/<?php echo $ar[$cont];?>" alt="Alt Image Text" />
                     </a>
                 </li>
                 
                 <!-- 3 -->
                 <li>
-                    <a href="imagen/03.jpg" title="Ciencias del Mar" data-subtitle="Ver fotografía" data-caption="Boris, Sebastien, Marcel">
-                        <img src="imagen/03.jpg" alt="Alt Image Text" />
+                    <?php $cont--; ?>
+                    <a href="imagenes/<?php echo $ar[$cont];?>" title="Ciencias del Mar" data-subtitle="Ver fotografía" data-caption="Boris, Sebastien, Marcel">
+                        <img src="imagenes/<?php echo $ar[$cont];?>" alt="Alt Image Text" />
                     </a>
                 </li>
 
                 <!-- 4 -->
                 <li>
-                    <a href="imagen/04.jpg" title="Lab. Microscopía" data-subtitle="Ver fotografía">
-                        <img src="imagen/04.jpg" alt="Alt Image Text" />
+                    <?php $cont--; ?>
+                    <a href="imagenes/<?php echo $ar[$cont];?>" title="Lab. Microscopía" data-subtitle="Ver fotografía">
+                        <img src="imagenes/<?php echo $ar[$cont];?>" alt="Alt Image Text" />
                     </a>
                 </li>
 
                 <!-- 5 -->
                 <li>
-                    <a href="imagen/05.jpg" title="Lab. Microscopía" data-subtitle="Ver fotografía">
-                        <img src="imagen/05.jpg" alt="Alt Image Text" />
+                    <?php $cont--; ?>
+                    <a href="imagenes/<?php echo $ar[$cont];?>" title="Lab. Microscopía" data-subtitle="Ver fotografía">
+                        <img src="imagenes/<?php echo $ar[$cont];?>" alt="Alt Image Text" />
                     </a>
                 </li>
 
                 <!-- 6 -->
                 <li>
-                    <a href="imagen/06.jpg" title="Lanzamiento Acuiferos" data-subtitle="Ver fotografía">
-                        <img src="imagen/06.jpg" alt="Alt Image Text" />
+                    <?php $cont--; ?>
+                    <a href="imagenes/<?php echo $ar[$cont];?>" title="Lanzamiento Acuiferos" data-subtitle="Ver fotografía">
+                        <img src="imagenes/<?php echo $ar[$cont];?>" alt="Alt Image Text" />
                     </a>
                 </li>
 
                 <!-- 7 -->
                 <li>
-                    <a href="imagen/07.jpg" title="Lanzamiento Acuiferos" data-subtitle="Ver fotografía">
-                        <img src="imagen/07.jpg" alt="Alt Image Text" />
+                    <?php $cont--; ?>
+                    <a href="imagenes/<?php echo $ar[$cont];?>" title="Lanzamiento Acuiferos" data-subtitle="Ver fotografía">
+                        <img src="imagenes/<?php echo $ar[$cont];?>" alt="Alt Image Text" />
                     </a>
                 </li>
 
                 <!-- 8 -->
                 <li>
-                    <a href="imagen/08.jpg" title="Ciencias del Mar" data-subtitle="Ver fotografía">
-                        <img src="imagen/08.jpg" alt="Alt Image Text" />
+                    <?php $cont--; ?>
+                    <a href="imagenes/<?php echo $ar[$cont];?>" title="Ciencias del Mar" data-subtitle="Ver fotografía">
+                        <img src="imagenes/<?php echo $ar[$cont];?>" alt="Alt Image Text" />
                     </a>
                 </li>
 
                 <!-- 9 -->
                 <li>
-                    <a href="imagen/09.jpg" title="Reunión UCN" data-subtitle="Ver fotografía" data-captiom="<strong>Ciencias del Mar</strong>">
-                        <img src="imagen/09.jpg" alt="Alt Image Text" />
+                    <?php $cont--; ?>
+                    <a href="imagenes/<?php echo $ar[$cont];?>" title="Reunión UCN" data-subtitle="Ver fotografía" data-captiom="<strong>Ciencias del Mar</strong>">
+                        <img src="imagenes/<?php echo $ar[$cont];?>" alt="Alt Image Text" />
                     </a>
                 </li>
 
                 <!-- 10 -->
                 <li>
-                    <a href="imagen/10.jpg" title="Visamaticos" data-subtitle="Ver fotografía" data-caption="<strong>Guayacan</strong>">
-                        <img src="imagen/10.jpg" alt="Alt Image Text" />
+                    <?php $cont--; ?>
+                    <a href="imagenes/<?php echo $ar[$cont];?>" title="Visamaticos" data-subtitle="Ver fotografía" data-caption="<strong>Guayacan</strong>">
+                        <img src="imagenes/<?php echo $ar[$cont];?>" alt="Alt Image Text" />
                     </a>
                 </li>
                 <!-- 11 -->
                 <li>
-                    <a href="imagen/11.jpg" title="Visamaticos" data-subtitle="Ver fotografía" data-caption="José Burgos">
-                        <img src="imagen/11.jpg" alt="Alt Image Text" />
+                    <?php $cont--; ?>
+                    <a href="imagenes/<?php echo $ar[$cont];?>" title="Visamaticos" data-subtitle="Ver fotografía" data-caption="José Burgos">
+                        <img src="imagenes/<?php echo $ar[$cont];?>" alt="Alt Image Text" />
                     </a>
                 </li>
                 <!-- 12 -->
                 <li>
-                    <a href="imagen/12.jpg" title="Visamaticos" data-subtitle="Ver fotografía" data-caption="José Montoya">
-                        <img src="imagen/12.jpg" alt="Alt Image Text" />
+                    <?php $cont--; ?>
+                    <a href="imagenes/<?php echo $ar[$cont];?>" title="Visamaticos" data-subtitle="Ver fotografía" data-caption="José Montoya">
+                        <img src="imagenes/<?php echo $ar[$cont];?>" alt="Alt Image Text" />
                     </a>
                 </li>
             </ul>
