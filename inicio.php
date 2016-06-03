@@ -119,7 +119,7 @@
                 <!-- 11 -->
                 <li>
                     <a href="imagen/11.jpg" title="Visamaticos" data-subtitle="Ver fotografía" data-caption="José Burgos">
-                        <img src="imagen/12.jpg" alt="Alt Image Text" />
+                        <img src="imagen/11.jpg" alt="Alt Image Text" />
                     </a>
                 </li>
                 <!-- 12 -->
