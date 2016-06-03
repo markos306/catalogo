@@ -44,7 +44,7 @@
 	        	<form method="POST" action="/Catalogo/buscador.php"> 
 					<paper-icon-button icon="icons:youtube-searched-for" id="icono"></paper-icon-button>
 					<input type="text" name="T1" id="lineadeBus"><br><br> 
-					<button type="submit" id="bus">Buscar</button> 
+					<button type="submit" id="busc">Buscar</button> 
 				</form>
 			
 			</div>
